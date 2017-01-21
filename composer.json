@@ -1,0 +1,41 @@
+{
+    "name": "spaark/spaark-http",
+    "license": "MIT",
+    "type": "library",
+    "description": "Spaark HTTP Module",
+    "keywords": ["Spaark", "PHP", "library", "framework"],
+    "homepage": "https://www.spaark.io/",
+    "authors": [
+        {
+            "name": "Emily Shepherd",
+            "email": "emily@emilyshepherd.me",
+            "homepage": "https://emilyshepherd.me",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/spaark/spaark-http/issues",
+        "source": "https://github.com/spaark/spaark-http",
+        "docs": "https://github.com/spaark/spaark-http/tree/master/docs"
+    },
+    "autoload": {
+        "psr-4": {
+            "Spaark\\Http\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.4",
+        "spaark/spaark" : "master-dev"
+    },
+    "require-dev": {
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/spaark/spaark.git"
+        }
+    ]
+}
